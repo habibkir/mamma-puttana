@@ -1,0 +1,100 @@
+#+TITLE: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+#+AUTHOR: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+#+DATE: 01/01/1970
+
+#+begin_quote
+Quant'è bella giovinezza
+Che si zumba tuttavia
+
+ -- tua madre
+#+end_quote
+
+* Lezioni
+*** Dodicesima
+  - Coefficienti binomiali
+  - Coefficienti binomiali generalizzati
+  - Problemi di conteggio:
+    - sottoinsiemi di un insieme finito
+    - multiinsiemi su un insieme finito
+      - liste
+      - permutazioni
+      - funzioni iniettive
+      - monotone crescenti
+      - monotone strettamente cresenti
+      - suriettive
+  - Estrazioni ordinate con e senza reimmissione
+  - Probabilità impostazioni
+    - classica
+    - soggettiva
+    - frequentista
+    - assiomatica
+ - σ-algebra; σ-algebra generata da una famiglia di sottoinsiemi
+ - σ-algebra; di Borel in R^n
+ - Misura
+ - Misura di probabilità
+ - Proprietà elementari
+ - Partizioni misurabili
+ - Legge delle probabilità totali
+ - Continuità della misura
+
+*** Tredicesima   
+ - Esempi di probabilità su insiemi finiti
+   - Probabilità uniforme su un intervallo
+ - Probabilità condizionata
+   - Formula della probabilità composta
+   - Formula di Bayes
+   - Legge delle probabilità totali
+   - Probabilità dell'unione di tre o più eventi
+   - Esercizi
+ - Variabili aleatorie
+   - Definizione e legge di una va
+
+*** Quattordicesima
+(ha fatto esercizi)
+
+*** Quindicesima
+ - Proprietà delle leggi di va
+   - Distribuzione di va
+   - Valore atteso
+   - Definizione generale, caso discreto, caso AC
+   - Valore atteso e distribuzione
+   - Formula di composizione
+   - Varianza e proprietà elementari
+ 
+*** Sedicesima
+ - Disuguaglianza di Markov
+ - Disuguaglianza di Chebychev
+ - Esempi di distribuzioni discrete:
+   - distribuzione di Bernoulli
+   - distribuzione binomiale
+   - distribuzione ipergeometrica (no dim)
+   - distribuzione di Poisson e proprietà degli eventi rari
+   - distribuzione geometrica e distribuzione geometrica modificata
+ 
+*** Diciassettesima
+ - Mancanza di memoria per la distribuzione geometrica modificata.
+ - Densità del quadrato e di una funzione affine di una v.a. A.C.
+ - Esempi di distribuzioni A.C.:
+   - distribuzione uniforme su un intervallo
+   - distribuzione esponenziale (con mancanza di memoria)
+   - distribuzione gaussiana.
+
+*** Diciottesima
+(ha corretto il primo parziale)
+
+*** Diciannovesima
+ - Va vettoriali (le bivariate)
+ - Caso discreto: densità marginali e densità congiunta
+ - Caso generico: distribuzione congiunta, distribuzioni marginali, legge congiunta
+ - Formula di composizione
+ - Distribuzione della somma
+ - Distribuzioni ac
+ - Densità congiunta e densità marginali
+ - Covarianza
+ - Indipendenza stocastica
+ - Famiglie di eventi indipendenti
+ - Va indipendenti
+ - Valore atteso del prodotto di va indipendenti
+ - Densità della somma
+   - caso assolutamente continuo
+   - caso discreto

@@ -1,0 +1,87 @@
+* Lezioni
+*** Prima
+ - Funzioni quelle con output vettoriale
+   - Limiti
+   - Continuità
+   - Derivatilità
+   - Esempi
+     
+*** Seconda
+ - Curve regolari
+   - Retta e versore tanngente
+   - Regolari a tratti
+   - Esempi
+ - Integrale di funzione vettoriale (integrale curvilineo)
+ - Grafici come curve
+ - Coordinate polari e curve in forma polare
+ - Lunghezza di
+   - Arco di curva
+   - Grafico
+   - Curva in forma polare
+   - Esempi
+ - Curve equivalenti
+   - Cambii di orientazione
+   - Si mantiene la lunghezza
+ - Ascissa curvilinea
+ - Integrali di prima specie
+
+*** Terza
+ - Funzioni di più variabili reali
+   - Dominio e insiemi di livello
+   - Esempi
+ - Elementi di topologi
+ - intorni sferici
+   -  palle
+   -  punti interni
+   -  punti esterni e di frontiera
+ - Chiusura
+ - Unione/intersezione di aperti/chiusi (no dim, controesempi)
+ - Limite di successione, limite di funzione
+ - Lemma di collegamento
+ - Caratterizzazione dei chiusi mediante i limiti di successione
+ - Proprietà elementari dei limiti
+ - Continuità
+ - Proprietà elementari e teorema di permanenza del segno
+ - Esempio di funzione non continua
+
+*** Quarta
+ - Insiemi limitati
+ - Teorema di Weierstrass (no dim)
+ - Insiemi connessi per archi
+ - Teorema degli zeri (no dim), esempio
+ - Derivate parziali e gradiente, esempio
+ - Iperpiano affine
+ - (Iper)piano tangente al grafico di una funzione
+ - Esistenza di funzioni derivabili ma non continue
+ - Differenziabilità e esistenza di una approssimazione lineare
+ 
+*** Quinta
+ - Continuità delle funzioni differenziabili
+ - Condizione sufficiente per la derivabilità
+ - Derivate direzionali, formula del gradiente
+ - Funzioni composte
+ - (Iper)piano tangente e curve tracciate sul grafico
+ - Gradiente e curve di livello, con esempi ed esercizi
+ - Derivate seconde, esempio
+
+*** Sesta
+ - Derivate parziali
+ - Funzioni C²
+ - Teorema di Schwarz (no dim)
+ - Sviluppo di Taylor del secondo ordine
+    - con resto di Peano
+    - con resto di Lagrange
+ - Estremi
+   - assoluti
+   - relativi
+   - liberi
+ - Teorema di Fermat
+ - Forme quadratiche
+ - Studio del caso n=2 
+*** Settima
+ - Matrice hessiana e natura dei punti critici di una funzione C²
+ - Ricerca degli estremi assoluti
+*** Ottava
+ - Coordinate cilindriche e coordinate sferiche
+ - n-intervalli
+ - Misura esterna e proprietà elementari

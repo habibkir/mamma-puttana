@@ -1,0 +1,27 @@
+* Base
+ - Dominio
+ - Curve/Insiemi di livello
+ - Limiti
+   - successione
+   - funzione
+ - Continuità
+ - Derivabilità
+
+* Stronze
+ - Iperpiani ::
+   - Affine
+   - Tangente
+
+** Derivate
+ - Derivate parziali
+ - Gradiente
+ - Differnziabile/Differenziale
+ - Taylor ::
+   - nel secondo ordine con resti di Peano
+   - nel secondo ordine con resti di Lagrange
+ - Estremi ::
+   - assoluti
+   - relativi
+   - liberi
+ - Matrice Hessiana
+ - Matrice Jacobiana (credo)
