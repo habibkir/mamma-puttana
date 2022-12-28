@@ -61,13 +61,14 @@
    $\gamma : \mathbb{R} \to \mathbb{R}^2$)
  - $\gamma(t) = {x = t, y = t^3}, trova $\gamma '$
  - derivata direzionale e formula del gradiente
- - teorema di Shwartz
+ - teorema di Shwarz
    - cambiando l'ordine delle variabili la derivata non cambia
    - ipotesi ::
      - $A$ aperto $\subseteq \mathbb{R}^n$, e $x_0 \in A$
      - $f : A \to \mathbb{R}$
      - $i \neq j$ e
-       $\frac{\partial f}{\partial x_i}, \frac{\partial f}{\partial x_i}$
+       $\frac{\partial}{\partial x_i}\frac{\partial f}{\partial x_j},
+         \frac{\partial}{\partial x_j}\frac{\partial f}{\partial x_i}$
        esistono continue in un intorno/palla di $x_0$ con raggio $> 0$
    - allora ::
       \[

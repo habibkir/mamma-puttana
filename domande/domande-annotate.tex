@@ -1,4 +1,4 @@
-% Created 2022-12-28 Wed 15:15
+% Created 2022-12-28 Wed 19:02
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -27,16 +27,16 @@
 \tableofcontents
 
 \section{Analisi 2}
-\label{sec:org72cb412}
+\label{sec:orga13deeb}
 \subsection{Non ricordo}
-\label{sec:org31e5680}
+\label{sec:orgb940c26}
 \begin{itemize}
 \item forma quadratica, perché è imporante la matrice simmetrica?
 \item importanza delle matrici simmetriche (se la cosa non riguardava Schwarz)
 \end{itemize}
 
 \subsection{Limiti}
-\label{sec:orga865acd}
+\label{sec:org343cbde}
 \begin{itemize}
 \item teorema di permanenza del segno
 \item lemma di collegamento
@@ -63,7 +63,7 @@ in poggiolinese
 \end{itemize}
 
 \subsection{Curve}
-\label{sec:org4b8c6ed}
+\label{sec:org0a3db65}
 \begin{itemize}
 \item cosa si intende per curva parametrica
 \item cos'è \(\gamma'(t_0)\) (derivata di una curva parametrica)
@@ -77,14 +77,14 @@ in poggiolinese
 \end{itemize}
 
 \subsubsection{Curve regolari}
-\label{sec:org4b75e2b}
+\label{sec:org41208d9}
 \begin{itemize}
 \item definizione curva regolare
 \item definizione di curva, tutte le proprietà di continuità e regolarità di una curva
 \end{itemize}
 
 \subsection{Massimi e minimi}
-\label{sec:org012794e}
+\label{sec:org2c92753}
 \begin{itemize}
 \item studio dei massimi e minimi assoluti di una funzione
 \item data una \(f : (A \subseteq \mathbb{R}^2) \to \mathbb{R}\), cosa vuol dire che \(x_0\) è un
@@ -96,14 +96,14 @@ massimi/minimi locali (vedi punti critici, Fermat)
 \end{itemize}
 
 \subsection{Cazzate di funzione}
-\label{sec:org4fcadf7}
+\label{sec:org1f15983}
 \begin{itemize}
 \item se ho una funzione misurabile non negativa, posso scriverla sempre come liimite di una
 seccessione di funzioni più semplici?
 \end{itemize}
 
 \subsection{Derivate}
-\label{sec:org190b857}
+\label{sec:org21f4db1}
 \begin{itemize}
 \item definizione di derivata parziale
 \begin{itemize}
@@ -118,14 +118,15 @@ seccessione di funzioni più semplici?
 \(\gamma : \mathbb{R} \to \mathbb{R}^2\))
 \item \$\(\gamma\)(t) = \{x = t, y = t\textsuperscript{3}\}, trova \(\gamma '\)
 \item derivata direzionale e formula del gradiente
-\item teorema di Shwartz
+\item teorema di Shwarz
 \begin{itemize}
 \item cambiando l'ordine delle variabili la derivata non cambia
 \item[{ipotesi}] \begin{itemize}
 \item \(A\) aperto \(\subseteq \mathbb{R}^n\), e \(x_0 \in A\)
 \item \(f : A \to \mathbb{R}\)
 \item \(i \neq j\) e
-\(\frac{\partial f}{\partial x_i}, \frac{\partial f}{\partial x_i}\)
+\(\frac{\partial}{\partial x_i}\frac{\partial f}{\partial x_j},
+         \frac{\partial}{\partial x_j}\frac{\partial f}{\partial x_i}\)
 esistono continue in un intorno/palla di \(x_0\) con raggio \(> 0\)
 \end{itemize}
 \item[{allora}] \[
@@ -139,7 +140,7 @@ esistono continue in un intorno/palla di \(x_0\) con raggio \(> 0\)
 \end{itemize}
 
 \subsubsection{Derivabilità}
-\label{sec:org6cf59ce}
+\label{sec:orgb5a8823}
 \begin{itemize}
 \item esempio di funzione derivabile ma non continua
 \item data \(f : (A \subseteq \mathbb{R}^2) \to \mathbb{R}\), concetto di derivabilità e gradiente
@@ -148,14 +149,14 @@ esistono continue in un intorno/palla di \(x_0\) con raggio \(> 0\)
 \end{itemize}
 
 \subsubsection{Punti critici}
-\label{sec:org6293bfd}
+\label{sec:orgb463bdf}
 \begin{itemize}
 \item definizione punto critico, perchè sono importanti
 \item punto di sella?
 \end{itemize}
 
 \subsection{Differenziale \& Co.}
-\label{sec:orgc4a994b}
+\label{sec:org2bbf26a}
 \begin{itemize}
 \item definizione di differenziabile \\
 puoi usare il gradiente per fare Taylor e funziona effettivamente come approssimazione
@@ -173,7 +174,7 @@ contemporaneamente, in poggioninese
 \end{itemize}
 
 \subsection{Coordinate polari}
-\label{sec:org0a337a1}
+\label{sec:org25f91b5}
 \begin{itemize}
 \item \(C = {(x,y) \in \mathbb{R}^2 | x^2 + y^2 \leq 4\), scrivi in forma polare
 \item dato \(C\) della domanda di sopra, impostare \(\int_C \sqrt{x^2 + y^2}\)
@@ -183,9 +184,11 @@ funzione, dare una caratterizzazione dell'insieme \(E\)
 \end{itemize}
 
 \subsection{Lesbegue}
-\label{sec:org82833cb}
+\label{sec:orgfbbd7cc}
 \begin{itemize}
 \item definizione di funzione semplice
+(una combinazione lineare finita di altipiani, se fai infiniti alitpiani puoi far
+tendere altre funzioni)
 \item definizione integrale di Lesbegue
 \item funzione misurabile secondo Lesbegue
 \item continuità della misura, con dimostrazione
@@ -198,7 +201,7 @@ funzione, dare una caratterizzazione dell'insieme \(E\)
 \end{itemize}
 
 \subsection{Puta madre}
-\label{sec:org48cfe08}
+\label{sec:orgdaa59d1}
 \begin{itemize}
 \item \(E = {(x,y) \in \mathbb{R}^2 | x^2 + y^2 < 4, x^2 - {(y-1)}^2 > 1}\)
 disegnarlo e studiarlo
@@ -211,5 +214,5 @@ disegna questa merda e imposta un integrale su \(E\)
 \end{itemize}
 
 \section{Probabilità}
-\label{sec:org4bbbf8b}
+\label{sec:orgab16de0}
 \end{document}
