@@ -1,0 +1,43 @@
+Una misura è tipo l'abstract class da cui eredita l'integrale[fn::se può farlo il vicario
+lo faccio pure io, tie']
+
+#+begin_src plantuml :file stocazzo.png
+  @startuml
+  hide circle
+  skinparam groupinheritance 2
+  interface Misura <<interface>> {
+  + val(): double 
+  }
+
+  abstract class Integrale implements Misura {
+  fun : funzione
+  + val() : double
+  }
+
+  class IntegraleReimann extends Integrale {
+  fun : funzione
+  + val() : double
+  }
+
+  class IntegraleLesbegue extends Integrale {
+  fun : funzione
+  sets : SigmaAlgebra
+  + val() : double
+  }
+  @enduml
+#+end_src
+
+#+RESULTS:
+[[file:stocazzo.png]]
+
+una misura è definita su una $\sigma -algebra$ ed è una funzione che descrive la
+dimensione di un'insieme nella $\sigma -algebra$, questa segue le proprietà che ci si
+potrebbe aspettare da una funzione "quant'è grosso sto sottinsieme?", lei la chiama
+$\mathbb{P}$ definita sull'algebra $\mathcal{E}$, quindi ste proprietà sono
+ - $\mathbb{P} : \mathcal{E} \to [0, + \infty]$
+ - $\mathbb{P}(\emptyset) = 0$
+ - se $A,B \in \mathcal{E}$ disgiunti, allora $\mathbb{P}(A \cup B) = \mathbb{P}(A) +
+   \mathbb{P}(B)$
+
+* Misure e probabilità
+boh

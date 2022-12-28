@@ -1,0 +1,215 @@
+% Created 2022-12-28 Wed 15:15
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Biggus Diccus}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={Biggus Diccus},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 28.1 (Org mode 9.5.5)}, 
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+\section{Analisi 2}
+\label{sec:org72cb412}
+\subsection{Non ricordo}
+\label{sec:org31e5680}
+\begin{itemize}
+\item forma quadratica, perché è imporante la matrice simmetrica?
+\item importanza delle matrici simmetriche (se la cosa non riguardava Schwarz)
+\end{itemize}
+
+\subsection{Limiti}
+\label{sec:orga865acd}
+\begin{itemize}
+\item teorema di permanenza del segno
+\item lemma di collegamento
+\begin{itemize}
+\item per evitare le cazzate tipo quelle che fai col seno e i limiti
+\item \(\lim_{x \to x_0} f(x) = L \iff\) per ogni
+successione \(a_k \to x_0\) \(lim{k \to \infty} f(a_k) = L\)
+\end{itemize}
+in poggiolinese
+\begin{description}
+\item[{ipotesi}] \begin{itemize}
+\item \(E \subseteq \mathbb{R}^n, f : E \to \mathbb{R}\)
+\item \(x_0 \in E\)
+\item \(L \in \mathbb{R}\)
+\end{itemize}
+\item[{allora}] \[
+     \lim_{x \to x_0} f(x) = L \iff
+     \forall (a_k)_{k \in \mathbb{N}}
+     \text{ con } a_k \in E \forall k \text{ e }
+     \lim_{k \to \infty} a_k = x_0 \text{ allora }
+     \lim_{k \to \infty} f(a_k) = L
+     \]
+\end{description}
+\end{itemize}
+
+\subsection{Curve}
+\label{sec:org4b8c6ed}
+\begin{itemize}
+\item cosa si intende per curva parametrica
+\item cos'è \(\gamma'(t_0)\) (derivata di una curva parametrica)
+\item definire la lunghezza di una curva
+\item limite di curva
+\item parametrizzare la circonferenza interna
+\item lunghezza di un arco di curva
+\item parametro d'arco
+\item equivalenza di due curve
+\item integrale di linea
+\end{itemize}
+
+\subsubsection{Curve regolari}
+\label{sec:org4b75e2b}
+\begin{itemize}
+\item definizione curva regolare
+\item definizione di curva, tutte le proprietà di continuità e regolarità di una curva
+\end{itemize}
+
+\subsection{Massimi e minimi}
+\label{sec:org012794e}
+\begin{itemize}
+\item studio dei massimi e minimi assoluti di una funzione
+\item data una \(f : (A \subseteq \mathbb{R}^2) \to \mathbb{R}\), cosa vuol dire che \(x_0\) è un
+punto di massimo locale?
+\item teorema di Fermat, dimostrazione
+\item Se \(f\) derivabile infinite volte, come faccio a trovare i candidati a essere
+massimi/minimi locali (vedi punti critici, Fermat)
+\item \(f : \mathbb{R}^2 \to \mathbb{R}\), come trovo massimi e minimi assoluti di \(f\) in \(E\)?
+\end{itemize}
+
+\subsection{Cazzate di funzione}
+\label{sec:org4fcadf7}
+\begin{itemize}
+\item se ho una funzione misurabile non negativa, posso scriverla sempre come liimite di una
+seccessione di funzioni più semplici?
+\end{itemize}
+
+\subsection{Derivate}
+\label{sec:org190b857}
+\begin{itemize}
+\item definizione di derivata parziale
+\begin{itemize}
+\item fissi tutte le variabili apparte \emph{quella} e fai il limite al tendere di \emph{quella}
+\end{itemize}
+\item come si garantisce la continuità?
+\begin{itemize}
+\item derivabile può non essere continua, ma puoi garantirlo se è differenziabile
+\end{itemize}
+\item derivata di \((f \circ \gamma) (t)\) (credo che
+\(f : \mathbb{R^n} \to \mathbb{R}\) e
+\(\gamma : \mathbb{R} \to \mathbb{R}^2\))
+\item \$\(\gamma\)(t) = \{x = t, y = t\textsuperscript{3}\}, trova \(\gamma '\)
+\item derivata direzionale e formula del gradiente
+\item teorema di Shwartz
+\begin{itemize}
+\item cambiando l'ordine delle variabili la derivata non cambia
+\item[{ipotesi}] \begin{itemize}
+\item \(A\) aperto \(\subseteq \mathbb{R}^n\), e \(x_0 \in A\)
+\item \(f : A \to \mathbb{R}\)
+\item \(i \neq j\) e
+\(\frac{\partial f}{\partial x_i}, \frac{\partial f}{\partial x_i}\)
+esistono continue in un intorno/palla di \(x_0\) con raggio \(> 0\)
+\end{itemize}
+\item[{allora}] \[
+     \frac{\partial}{\partial x_i} \frac{\partial f}{\partial x_j} =
+     \frac{\partial}{\partial x_j} \frac{\partial f}{\partial x_i}
+     \]
+\end{itemize}
+\item importanza delle matrici simmetriche (Shwartz, fai metà della fatica? Resto boh)
+\item definizione matrice hessiana
+(quella con tutte le derivate seconde)
+\end{itemize}
+
+\subsubsection{Derivabilità}
+\label{sec:org6cf59ce}
+\begin{itemize}
+\item esempio di funzione derivabile ma non continua
+\item data \(f : (A \subseteq \mathbb{R}^2) \to \mathbb{R}\), concetto di derivabilità e gradiente
+\item \(f : \mathbb{R}^2 \to \mathbb{R}\), cosa vuol dire che \(f\) derivabile in
+\((x_0, y_0) \in \mathbb{R}^2\)
+\end{itemize}
+
+\subsubsection{Punti critici}
+\label{sec:org6293bfd}
+\begin{itemize}
+\item definizione punto critico, perchè sono importanti
+\item punto di sella?
+\end{itemize}
+
+\subsection{Differenziale \& Co.}
+\label{sec:orgc4a994b}
+\begin{itemize}
+\item definizione di differenziabile \\
+puoi usare il gradiente per fare Taylor e funziona effettivamente come approssimazione
+quindi localmente è piatta e si comporta bene, vale a dire che non tende a 20 valori
+contemporaneamente, in poggioninese
+\end{itemize}
+
+
+\begin{itemize}
+\item dimostrare che se \(f\) differenziabile allora \(f\) continua
+\item dimostrare che se \(f\) differenziabile allora \(f\) derivabile
+\item \(f : \mathbb{R}^2 \to \mathbb{R}\), cosa vuol dire che \(f\) differenziabile in
+\((x_0, y_0) \in \mathbb{R}^2\)
+\item condizioni sufficienti per la differenziabilità
+\end{itemize}
+
+\subsection{Coordinate polari}
+\label{sec:org0a337a1}
+\begin{itemize}
+\item \(C = {(x,y) \in \mathbb{R}^2 | x^2 + y^2 \leq 4\), scrivi in forma polare
+\item dato \(C\) della domanda di sopra, impostare \(\int_C \sqrt{x^2 + y^2}\)
+\item \(E = {(x,y) \in \mathbb{R}^2 | y > x - 1, 1 \leq {(x-1)}^2 + y^2 \leq 4}\)
+riscrivilo in coordinate polari\footnote{poi riscrivilo in rust}, e imposta di una generica
+funzione, dare una caratterizzazione dell'insieme \(E\)
+\end{itemize}
+
+\subsection{Lesbegue}
+\label{sec:org82833cb}
+\begin{itemize}
+\item definizione di funzione semplice
+\item definizione integrale di Lesbegue
+\item funzione misurabile secondo Lesbegue
+\item continuità della misura, con dimostrazione
+\item n-intervallo, volume, e misura esterna
+\item proprietà della misura esterna
+\item proprietà degli insiemi misurabili secondo Lesbegue
+\item proprietà delle funzioni misurabili
+\item fetta di un insieme, teorema di Fubini
+\item Beppo Levi, con dimostrazione
+\end{itemize}
+
+\subsection{Puta madre}
+\label{sec:org48cfe08}
+\begin{itemize}
+\item \(E = {(x,y) \in \mathbb{R}^2 | x^2 + y^2 < 4, x^2 - {(y-1)}^2 > 1}\)
+disegnarlo e studiarlo
+\item \(E = {(x,y) \in \mathbb{R}^2 | y \leq x, {(x-1)}^2 + y^2 \leq 1 }\)
+disegnarlo e farci integrale
+\item \(E = {(x,y) \in \mathbb{R}^2 | y \geq x, 1 \leq x^2 + y^2 \leq 4}\)
+disegnarlo
+\item \(E = {(x,y) \in \mathbb{R}^2 | x^2 - y \leq 4, {(x-1)}^2 + y^2 \leq 4}\)
+disegna questa merda e imposta un integrale su \(E\)
+\end{itemize}
+
+\section{Probabilità}
+\label{sec:org4bbbf8b}
+\end{document}

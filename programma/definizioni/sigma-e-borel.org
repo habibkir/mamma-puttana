@@ -1,0 +1,50 @@
+* Sigma
+pensa a $\mathbb{Z}$, pensa a che rottura di palle sarebbe se si potesse fare tipo
+$a,b \in \mathbb{Z}, a+b \not \in \mathbb{Z}$, o $a-b \not \in \mathbb{Z}$, fa molto
+comodo che non si possa fare, e poi avrebbe parecchio poco senso se si potesse fare.
+
+quindi per \mathbb{Z} torna utile/comodo/sensato/etc... che
+ - $a,b \in \mathbb{Z} \Rigtharrow a + b \in \mathbb{Z}$
+ - $a,b \in \mathbb{Z} \Rigtharrow a - b \in \mathbb{Z}$
+ - $a,b \in \mathbb{Z} \Rigtharrow a \times b \in \mathbb{Z}$
+ - /et cetera res.../
+
+Una $\sigma -algebra$ è una sottospecie di $\mathbb{Z}$ per gli insiemi, ma visto che è per
+gli insiemi, è anche definita con un astratto che Mondrian si inchina e Dalì ti sviene sul
+punto, sborrando.
+
+Una $\sigma$-algebra è un'insieme di insiemi [fn::cominciamo bene] su cui si possono fare
+certe operazioni e restare nell'insieme.
+diciamo che la $\sigma -algebra$ $\mathcal{E}$ è fatta da sottinsiemi di $\Omega$, allora
+
+ - $\Omega, \emptyset \in \mathcal{E}$
+ - $\forall A,B \in \mathcal{E} \Rightarrow A \cup B \in \mathcal{E}$
+ - $\forall A \in \mathcal{E} \Rightarrow A^C (= \Omega \backslash A) \in \mathcal{E}$
+
+** Perchè abbiamo definito sta cosa?
+prendiamo un evento del mondo reale, che non c'entra un cazzo con analisi "alle elezioni
+ha vinto un comunista"
+ - il suo negato, "alle elezioni non ha vinto un comunista", è sempre un evento
+ - prendo un qualche altro evento, "il bus ha saltato una corsa", allora la
+   disgiunzione[fn:: detta in modo meno aristotelico, l'OR]
+   "alle elezionii ha vinto un comunista, o il bus ha saltato", è sempre un evento
+
+per far tornare meglio i conti e/o per ovvietà diciamo che sono eventi pure un evento
+certo e un evento impossibile
+
+eccoti la definizione, era solo per dire questo, ma qui gli eventi sono insiemi quindi
+l'ha messa con le unioni
+
+** Sigma derivate
+data una famiglia $\mathcal{D}$ di sottinsiemi di $\Omega$, la $\sigma -algebra$ generata
+da $\mathcal{D}$ è la più piccola $\sigma -algebra$ che contiene tutti gli elementi di
+$\mathcal{D}$
+
+*** Sigma di Borel
+arriviamo adesso alla fatidica $\sigma -algebra$ di Borel, la $\sigma -algebra$ di Borel è
+definita come la $\sigma -algebra$ generata dall'insieme di tutti gli aperti di
+$\mathbb{R}^n$
+gli elementi della $\sigma$ di Borel sono misurabili, quindi
+$\mathcal{B}(\mathbb{R}^n) \subseteq \mathcal{M}^n$, visto che $mathcal{M}^n$ è fatto solo
+da n-intervalli e unioni numerabili di n-intervalli, allora la $\sigma -algebra$ generata
+da tutti gli n-intervalli ci scazzi un po' ed ecco $\mathcal{B}$

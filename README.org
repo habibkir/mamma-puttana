@@ -1,0 +1,17 @@
+codesto repository contiene appunti/note prodotte e/o raccolte ai fini di prendere più di
+18 all'orale, e levarsi sta materia dal cazzo
+
+(per tutti i file .org presenti, se nella cartella trovate anche un file con lo stesso nome ma .pdf è perchè github rendeva male i .org)
+
+le cartelle incluse nel repo hanno i seguenti fini:
+ - =note-habib= :: appunti di studente.
+ - =note-poggliolini= :: note della poggiolini prese dal suo sito ordinate per lezione
+   (le note risalgono all'anno scorso, di quest'anno non c'erano)
+ - =programma= :: programma del corso, preso dal sito della poggiolini
+   (prese dall'anno scorso, di quest'anno non c'erano)
+ - =domande= :: domande fatte agli orali, riadattato dal file mandato sul gruppo
+   - =domande-fatte.org= :: lista di domande fatte
+   - =domande-annotate.org= :: stessa ( \pm ) lista, con annotazioni/"risposte"
+ - =tom-annotated-poggiolini= :: stessi file di =programma= ma con note di studente.
+
+   

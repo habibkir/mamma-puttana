@@ -1,0 +1,136 @@
+* Analisi 2
+** Non ricordo
+ - forma quadratica, perché è imporante la matrice simmetrica?
+ - importanza delle matrici simmetriche (se la cosa non riguardava Schwarz)
+
+** Limiti
+ - teorema di permanenza del segno
+ - lemma di collegamento
+   - per evitare le cazzate tipo quelle che fai col seno e i limiti
+   - $\lim_{x \to x_0} f(x) = L \iff$ per ogni
+     successione $a_k \to x_0$ $lim{k \to \infty} f(a_k) = L$
+   in poggiolinese
+   - ipotesi ::
+     - $E \subseteq \mathbb{R}^n, f : E \to \mathbb{R}$
+     - $x_0 \in E$
+     - $L \in \mathbb{R}$
+   - allora ::
+     \[
+     \lim_{x \to x_0} f(x) = L \iff
+     \forall (a_k)_{k \in \mathbb{N}}
+     \text{ con } a_k \in E \forall k \text{ e }
+     \lim_{k \to \infty} a_k = x_0 \text{ allora }
+     \lim_{k \to \infty} f(a_k) = L
+     \]
+
+** Curve   
+ - cosa si intende per curva parametrica
+ - cos'è $\gamma'(t_0)$ (derivata di una curva parametrica)
+ - definire la lunghezza di una curva
+ - limite di curva
+ - parametrizzare la circonferenza interna
+ - lunghezza di un arco di curva
+ - parametro d'arco
+ - equivalenza di due curve
+ - integrale di linea
+
+*** Curve regolari   
+ - definizione curva regolare
+ - definizione di curva, tutte le proprietà di continuità e regolarità di una curva
+
+** Massimi e minimi   
+ - studio dei massimi e minimi assoluti di una funzione
+ - data una $f : (A \subseteq \mathbb{R}^2) \to \mathbb{R}$, cosa vuol dire che $x_0$ è un
+   punto di massimo locale?
+ - teorema di Fermat, dimostrazione
+ - Se $f$ derivabile infinite volte, come faccio a trovare i candidati a essere
+   massimi/minimi locali (vedi punti critici, Fermat)
+ - $f : \mathbb{R}^2 \to \mathbb{R}$, come trovo massimi e minimi assoluti di $f$ in $E$?
+
+** Cazzate di funzione   
+ - se ho una funzione misurabile non negativa, posso scriverla sempre come liimite di una
+   seccessione di funzioni più semplici?
+
+** Derivate
+ - definizione di derivata parziale
+   - fissi tutte le variabili apparte /quella/ e fai il limite al tendere di /quella/
+ - come si garantisce la continuità?
+   - derivabile può non essere continua, ma puoi garantirlo se è differenziabile
+ - derivata di $(f \circ \gamma) (t)$ (credo che
+   $f : \mathbb{R^n} \to \mathbb{R}$ e
+   $\gamma : \mathbb{R} \to \mathbb{R}^2$)
+ - $\gamma(t) = {x = t, y = t^3}, trova $\gamma '$
+ - derivata direzionale e formula del gradiente
+ - teorema di Shwartz
+   - cambiando l'ordine delle variabili la derivata non cambia
+   - ipotesi ::
+     - $A$ aperto $\subseteq \mathbb{R}^n$, e $x_0 \in A$
+     - $f : A \to \mathbb{R}$
+     - $i \neq j$ e
+       $\frac{\partial f}{\partial x_i}, \frac{\partial f}{\partial x_i}$
+       esistono continue in un intorno/palla di $x_0$ con raggio $> 0$
+   - allora ::
+      \[
+     \frac{\partial}{\partial x_i} \frac{\partial f}{\partial x_j} =
+     \frac{\partial}{\partial x_j} \frac{\partial f}{\partial x_i}
+     \]
+ - importanza delle matrici simmetriche (Shwartz, fai metà della fatica? Resto boh)
+ - definizione matrice hessiana
+   (quella con tutte le derivate seconde)
+
+*** Derivabilità   
+ - esempio di funzione derivabile ma non continua
+ - data $f : (A \subseteq \mathbb{R}^2) \to \mathbb{R}$, concetto di derivabilità e gradiente
+ - $f : \mathbb{R}^2 \to \mathbb{R}$, cosa vuol dire che $f$ derivabile in
+   $(x_0, y_0) \in \mathbb{R}^2$
+   
+*** Punti critici
+ - definizione punto critico, perchè sono importanti
+ - punto di sella?
+
+** Differenziale & Co.
+ - definizione di differenziabile \\
+   puoi usare il gradiente per fare Taylor e funziona effettivamente come approssimazione
+   quindi localmente è piatta e si comporta bene, vale a dire che non tende a 20 valori
+   contemporaneamente, in poggioninese
+   
+
+ - dimostrare che se $f$ differenziabile allora $f$ continua
+ - dimostrare che se $f$ differenziabile allora $f$ derivabile
+ - $f : \mathbb{R}^2 \to \mathbb{R}$, cosa vuol dire che $f$ differenziabile in
+   $(x_0, y_0) \in \mathbb{R}^2$
+ - condizioni sufficienti per la differenziabilità
+
+** Coordinate polari
+ - $C = {(x,y) \in \mathbb{R}^2 | x^2 + y^2 \leq 4$, scrivi in forma polare
+ - dato $C$ della domanda di sopra, impostare $\int_C \sqrt{x^2 + y^2}$
+ - $E = {(x,y) \in \mathbb{R}^2 | y > x - 1, 1 \leq {(x-1)}^2 + y^2 \leq 4}$
+   riscrivilo in coordinate polari[fn::poi riscrivilo in rust], e imposta di una generica
+   funzione, dare una caratterizzazione dell'insieme $E$
+
+** Lesbegue
+ - definizione di funzione semplice
+   (una combinazione lineare finita di altipiani, se fai infiniti alitpiani puoi far
+   tendere altre funzioni)
+ - definizione integrale di Lesbegue
+ - funzione misurabile secondo Lesbegue
+ - continuità della misura, con dimostrazione
+ - n-intervallo, volume, e misura esterna
+ - proprietà della misura esterna
+ - proprietà degli insiemi misurabili secondo Lesbegue
+ - proprietà delle funzioni misurabili
+ - fetta di un insieme, teorema di Fubini
+ - Beppo Levi, con dimostrazione
+
+** Puta madre
+ - $E = {(x,y) \in \mathbb{R}^2 | x^2 + y^2 < 4, x^2 - {(y-1)}^2 > 1}$
+   disegnarlo e studiarlo
+ - $E = {(x,y) \in \mathbb{R}^2 | y \leq x, {(x-1)}^2 + y^2 \leq 1 }$
+   disegnarlo e farci integrale
+ - $E = {(x,y) \in \mathbb{R}^2 | y \geq x, 1 \leq x^2 + y^2 \leq 4}$
+   disegnarlo
+ - $E = {(x,y) \in \mathbb{R}^2 | x^2 - y \leq 4, {(x-1)}^2 + y^2 \leq 4}$
+   disegna questa merda e imposta un integrale su $E$
+
+* Probabilità 
+
