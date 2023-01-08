@@ -1,0 +1,61 @@
+formula di composizione per variabili aleatorie
+falla
+
+* Preliminari
+** Funzione di borel
+dato un insieme misurabile E e una funzineuna funzione da E a $\overline{\mathbb{R}}$
+dico che questa funzione è misurabile se $\forall t \in \mathbb{R}$
+l'insieme degli $x$ per cui $f(t) \leq t$ è misurabile
+
+*** sono equivalenti le seguenti
+ - $\forall t \in \mathbb{R}$ ::
+   - $\{x \in E : f(x) > t\}$ misurabile
+   - $\{x \in E : f(x) \geq t\}$ misurabile
+   - $\{x \in E : f(x) \leq t\}$ misurabile (definizione di misurabile)
+   - $\{x \in E : f(x) < t\}$ misurabile
+
+**** Dimostrazione
+(non so quanto dimostrazione vada bene, mi sa poco, me la tengo per ricordo)
+dimostriamo alla cerchio con
+$\leq \Rightarrow < \Rightarrow \geq \Rightarrow > \Rightarrow \leq$
+
+chiamiamo sti quattro insiemi
+ - $E_{\leq}$
+ - $E_{<}$
+ - $E_{\geq}$
+ - $E_{>}$
+**** \leq \Rightarrow <
+ricordandoci la definizione
+ - $E_{f,t} = \{x \in E : f(x) = t\}$
+
+si nota che $E_{<} = E_{\leq} \backslash E_{f,t}$   
+
+sappiamo che $E_{f,t}$ è misurabile visto che
+abbiamo costruito le funzioni misurabili come limiti di successione di funzioni semplici
+(lemma di campionamento)
+
+questo insieme $E_{f,t}$ è il limite della successione di insiemi misurabili
+$E_{n,t} = \{x \in E : \varphi_n (x) = t\}$
+
+quindi $E_{f,t}$ è misurabile per la continuità della misura
+
+allora $E_{<} =$ differenza tra due insiemi misurabili, che è quindi misurabile
+
+**** < \Rightarrow \geq
+andando ancora a differenze
+$E_{\geq} = E \backslash E_{<}$
+entrambi i cosi nell differenza sono misurabili
+quindi amen
+
+**** \geq \Rightarrow > 
+$E_{>} = E_{\geq} \backslash E_{f,t}$
+
+**** > \Rightarrow \leq
+$E_{\leq} = E \backslash E_{>}$
+
+*** Per Borel
+questa dimostrazione funziona anche con
+$E \in \mathcal{B}(\mathbb{R})$, oltre che con
+$E \in \mathcal{L}^n$
+visto che sfrutta solo la struttura di $sigma -algebra$
+quindi sappiamo che se $f$ borel misurabile, allora valgono tutte quelle belle tesi

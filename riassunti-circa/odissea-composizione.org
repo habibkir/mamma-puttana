@@ -1,0 +1,5 @@
+aiuto
+ - valori attesi
+ - valori attesi di composti
+ - dolore
+ - altro dolore

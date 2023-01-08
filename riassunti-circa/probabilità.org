@@ -1,0 +1,33 @@
+** Spazio probabilizzato
+uno spazio probabilizzato è fatto dai soliti $(\Omega, \mathcal{E}, \mathbb{P})$ dove
+ - $\Omega$ :: è un insimeme universo non vuoto, detto anche spazio campionario
+ - $\mathcal{E}$ ::  è una $\simgma$ algebra su $\Omega$ che contiene gli eventi
+ - $\mathbb{P}$ :: è una misura definita sull'algebra $\mathcal{E}$ che definisce la
+   probabilità dell'evento $E \in \mathbb{E}$
+
+*** Probabilità
+la probabilità si definisce quindi come una misura sulla $\sigma$ algebra degli eventi
+
+** Variabili aleatorie
+una variabile aleatoria è una funzione che associa un valore numerico a ogni esito
+dell'esperimento, non nel senso di probabilità, quanto nel senso di "quanto vale questo
+esito?"(notare bene che stiamo parlando di esiti e non di eventi),
+quindi ogni faccia del dado ha un valore numerico da 1 a 6, il lancio di una moneta può
+avere valore 0 o 1, aspettare 3 minuti a un semaforo ha valore 3, aspettarne 4 ha valore
+4...
+
+inoltre per definirsi tale una variabile aleatoria deve essere misurabile, perché è la
+Poggiolini.
+Ricordando la definizione di funzione misurabile vista prima
+
+**** Funzione misurabile
+dati $E \subseteq \mathbb{R}^n$ misurabile, la funzione $f : E \to \mathbb{R}$ si dice
+misurabile sse
+ - $\forall t \in \mathbb{R}
+   \Rightarrow E_{f,t} := \{\underline{x} \in E : f(\underline{x}) \leq t\}$ è misurabile
+
+**** Definizione di misurabile per VA
+dato uno spazio probabilizzato $(\Omega, \mathcal{E}, \mathbb{P})$, la funzione
+$X : \Omega \to \mathbb{R}$ si dice variabile aleatoria sse
+ - $\forall t \in \mathbb{R}
+   \Rightarrow \{\omega \in \Omega : X(\omega) \leq t\} \in \mathcal{E}$

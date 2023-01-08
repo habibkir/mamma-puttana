@@ -1,0 +1,11 @@
+per oggi
+* Cose da vedere
+ - Beppo Levi (visto)
+ - Fubini
+ - Lunghezza
+ - FORMULE DI COMPOSIZIONE (derivata funzione composta)
+
+** Lesbegue   
+ - Lemma campionamento/ Funzioni semplici/ successione di funzioni semplici (visto)
+ - les misurables/ misurabili/ boh
+ - continuità della misura (limite) (visto)

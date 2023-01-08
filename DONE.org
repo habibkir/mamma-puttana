@@ -1,0 +1,56 @@
+
+** Funzione misurabile
+vedi lemma di campionamento, credo
+tanto la definizione è equivalente, non lo so, non ho capito
+
+** Lemma di campionamento
+data la continuità della misura, (credo), una funzione (non negativa) è misurabile sse
+\exists una successione (finita o meno) di funzioni semplici che tendono a quella come si
+fa con la continuità della miusra, cioè, dati $E$ ed $f$ con
+
+\begin{align*}
+&E \subseteq \mathbb{R}^n, E \in \mathcal{M}^n \\
+&f : E \to [0, + \infty) \cup \{ + \infty\} \text{ (vale a dire non negativa)}
+\end{align*}
+
+questa $f$ è misurabile sse (definizione equivalente) è il limite di qualche misura
+per fare sto limite impostiamo la successione di funzioni semplici
+$(\varphi_k(\underline{x}))_{k \in \mathbb{R}}$
+se $\exists$ sta successione di funzioni semplici tali che
+\begin{align*}
+&0 \leq \varphi_k(\underline{x}) \leq \varphi_{k+1}(\underline{x})
+&(\forall \underline{x} \in E, k \in \mathbb{N}) \\
+&\lim_{k \to \infty} \varphi_k(\underline{x}) = f(\underline{x})
+&(\forall \underline{x} \in E)
+\end{align*}
+
+allora $f$ è misurabile e la sua misura è il limite delle misure
+
+*** Sta misura
+**** Per chi non volesse un trauma all'argenti
+ai fini di romperci meno le palle estendiamo $f$ all'essere 0 fuori da E
+
+Prendiamo la successoine di insiemi
+\[ E_k := \{\underline{x} \in \mathbb{R}^n | f(\underline{x}) < 2^k\} \]
+
+dati $E_k$, $\varphi_k(\underline{x})$ sarà un "campionamento" di $f$ all'interno di $E_k$
+ai fini di tendere sempre più a $f(\underline{x})$ il campionamento deve essere sempre più
+fitto, allora si campiona con "fette"/ "livelli"/ chiamali come vuoi
+di altezza $\frac{1}{4^k}$, detto $h$ l'"indice" di questa fetta avremo che la fetta
+$E_{h,k}$ sarà definita come
+\[E_{h,k} = \{ \underline{x} \in \mathbb{R}^n |
+\frac{h}{4^k} < f(\underline{x}) \leq \frac{h + 1}{4^k} \} \]
+
+**** Per chi volesse un trauma all'Argenti
+\forall k prendiamo l'insieme $f(\underline{x}) \leq 2^k$
+e lo dividiamolo in $4^k$ livelli di campionamento equidistanti,
+si campiona la funzione approssimandola per difetto alla prima soglia di campionamento
+$\leq f(\underline{x})$, ecce $\varphi_k(\underline{x})$
+
+** Beppo Levi
+hai una successoine, puoi far tendere questa successione a un limite
+questa successoine è crescente
+il limite dell'integrale è pari all'integrale del limite
+che è pari al sup perchè cresce
+
+** Taylor secondo ordine resto di Lagrange

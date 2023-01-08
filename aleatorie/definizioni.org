@@ -1,0 +1,52 @@
+* Alba dei tempi
+ - coefficienti binomiali
+   - ci sono anche quelli generalizzati ma chi li caga
+ - insiemi/ multinsiemi/ liste/ parole...
+   - chi li caga1
+ - impostazioni ::
+   - frequentista
+   - soggettiva
+   - assiomatica
+
+* Sigma     
+ - $\sigma -algebra$ ::
+   - $\sigma -algebra$
+   - $\sigma -algebra$ generata
+   - $\sigma -algebra$ di Borel
+ - misura definita su una $\sigma -algebra$
+ - partizione misurabile (da cui fa legge prob. totali)
+
+* Probabilità
+ - probabilità uniforme su un insieme finito ($\frac{1}{n}$)
+   - pongo la prob. del singoletto (sottinsime = $\Sigma$)
+   - esempio ::
+     - prove di Bernoulli / binomiale
+     - urna
+ - probabilità uniforme su un intervallo
+   - pongo la probabilità del sottinsieme di $[a,b]$
+ - probabilità condizionata
+
+* Variabile aleatoria
+ - dato uno spazio probabilizzato $(\Omega, \mathcal{E}, \mathbb{P}$, $X$ è una variabile
+   aleatoria su questo spazio quando...
+ - legge di una variabile aleatoria
+   (visto che per visto sopra
+   $\{\omega \in \Omega : X(\omega) \leq t\} \in \mathcal{E}$,
+   allora posso fare la misura di questo coso, che sarà la probabilità)
+
+** Valore atteso   
+ - valore atteso di una VA
+   - caso finito / funzione semplice / può assumere solo una quantità finita di valori
+     - (bla bla bla partizione sommatoria weee)
+   - caso continuo
+     - sup del caso semplice che poi diventa un integrale
+ - variabile aleatoria integrabile
+   - se almeno una tra le parti positiva e negativa della va ha integrale (quello col sup)
+     finito 
+ - variabile aleatoria sommabile
+   - se entrambe le parti positiva e negativa della va ha intetegrale finito
+   
+** Classificazioni
+ - variabile aleatoria discreta
+ - variabile aleatoria con distribuzione assolutamente continua
+   (se esiste la funzione di densità)

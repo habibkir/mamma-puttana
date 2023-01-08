@@ -1,0 +1,82 @@
+il seguente documento è perchè la Poggiolini non sa spiegare un cazzo
+il seguente documento è anche fatto alla cazzo
+ed è tipo il terzo di sto tipo che faccio, e non ho ancora capito come dovrebbe funzionare
+bello
+
+* Definizioni
+** Misura
+*** n-intervalli
+prodotto cartesiano di intervalli mezz'aperti t'ha capito
+
+*** Misura esterna
+inf di quella sommatoria che copre
+
+*** Proprietà misura esterna
+(visto che per i misurabili togli solo l'asterisco, sticazzi)
+ - è una misura quindi $\mathcal{L}(qualcosa) \in [0, + \infty]$
+ - $\mathcal{L}(\emptyset ) = 0$
+ - $\mathcal{L}(E \text { numerabile } ) = 0$
+ - $I$ n-intervallo $\to \mathcal{L}(\partial I) = 0$
+ - $\mathcal{L}(I \in \mathcal{I}) = vol(I)$
+ - $\sigma$ -subadditività ::
+   \[ A,B \in \mathcal{E} \to \mathcal{L}(A \cup B) \leq \mathcal{L}(A) + \mathcal{L}(B) \]
+ - $\sigma$ -additività ::
+   \[ A,B \text{ disgiunti } \in \mathcal{E} \to \mathcal{L}(A \cup B) = \mathcal{L}(A) + \mathcal{L}(B) \]
+ - $\mathcal{L}(E) = inf\{\mathcal{L} A | A \text{ aperto } \supseteq E\}$
+   
+** Insiemi misurabili
+un insieme è misurabile secondo Lesbegue
+quando
+ 1. è un unione di n-intervalli disgiunti (o giunti, tanto puoi staccarli e non cambia)
+ 2. puoi approssiarlo arbitrariamente bene con il caso 1
+
+per il secondo caso possiamo metterla che $E$ è misurabile secondo Le bag se
+\[ \forall \varepsilon > 0 \Rightarrow
+\exists (I_k)_{k \in \mathbb{N}} \subseteq \mathcal{I}
+\text{ tale che, detto} \]
+\[ U := (\bigcup_{k \in \mathbb{N}} I_k) \]
+sia ha che
+\[ U \supseteq E, \mathcal{L}^{\ast}(U\E) \leq \varepsilon \]
+o qualcosa del genere, credo
+
+*** I seguenti sono misurabili
+ - Aperti
+ - Chiusi limitati
+ - Unioni numerabili di misurabili
+ - Intersezioni numerabili di misurabili
+ - corollario \to ogni chiuso
+
+*** Proprietà insiemi misurabili
+** Funzioni misurabili
+siano
+ - $E \in \mathbb{R}^n$ un insieme misurabile
+ - $f : E \to \overline{\mathbb{R}}$
+
+dico dhe $f$ è una /funzione misurabile/ se
+\[ \forall t \in \mathbb{R} \to E_{f,t} := \{x \in E | f(x) \leq t\} \text { è misurabile}\]
+
+*** Sono misurabili le seguenti
+ - costanti
+ - funzioni caratteristiche
+ - max e min di due funzioni misurabili
+ - funzioni misurabili sommate a costanti
+ - inversi e quadrati di funzioni misurabili (wee funzioni biunivoche wee)
+ - funzioni misurabili a cui restringo il dominio
+ - composizione di funzioni continue e misurabili
+   
+*** E anche le seguenti
+ - il sup e l'inf puntuti di una successione di funzioni misurabili
+
+*** Approssimare con funzioni semplici
+**** Lemma campionamento
+
+** Integrale lesbegue
+
+
+* Teoremi
+
+** I misurabili sono una $\sigma -algebra$
+** Affermazioni equivalenti
+** Continuità della misura
+** Fubini
+** Beppo

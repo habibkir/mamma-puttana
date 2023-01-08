@@ -1,0 +1,33 @@
+(note prese alla cazzo di cane pensando ad alta tastiera)
+
+mettiamo che la varaibile aleatoria è la parità del lancio di un dado
+non lo so
+
+cosa cazzo è l'input di una variabile aleatoria?
+
+prendiamo il lancio di un dado, di nuovo
+\Omega è l'insieme delle faccie, la \sigma è l'insieme di tutti i sottinsimei dell'insieme delle faccie
+l'insieme di tutti i possibili eventi il cui sì o no dipende dal lancio di un dado
+
+cosa cazzo è una va su quest'insieme?
+
+aspetta
+la faccia che esce è un dato categorico
+la variabile aleatoria è una traduzione numerica dell'esito
+
+dato un qualche evento che accade in un certo modo una variabile aleatoria è una traduzione numerica dell'esito uscito
+in quanto l'esito non è necessariamente visto come numero
+
+la faccia che esce dal lancio del dado è una faccia, il valore riportato è un numero, che dipende dalla faccia
+è una funzione numerica dell'esito
+è una funzione numerica della faccia uscita dal lancio del dado
+è una funzione numerica che prende come input l'esito di un qualche esperimento aleatorio
+
+questa si considera una variabile aleatoria qualora se ne possa trovare la legge,
+vale a qualora la gli input che danno l'output sopra qualcosa siano un sottinsieme di cui posso trovare la probabilità
+solo che in questo caso la probabilità in questione in realtà sarebbe più una misura
+ma tanto non c'è differenza tra probabilità e misura in questo cazzo di mondo
+
+se per ogni output, il fatto che "è uscito più di quello" è un evento
+se per ogni output, il fatto che "è uscito più di quello" è un evento secondo la definizione di evento che mi ritrovo
+questa definizione di evento è la sigma algebra, è l'insieme che si comporta da evento, ed è l'insieme su cui ho definito la misura

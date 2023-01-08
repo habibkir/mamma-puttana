@@ -1,0 +1,71 @@
+il seguente documento è fatto più per ripasso che per studio,
+ed è fatto male
+* n-intervalli
+un n-intervallo è bene o male un parallelepipedo
+la definizione rigorosa è che
+**** definizione n-intervallo
+siamo in $\mathbb{R}^n$ e vogliamo definire un n-intervallo
+dato un insieme di intervalli
+\[ (a_i, b_i], a_i \in \mathbb{R}, b_i \in \mathbb{R}, i \in 1,\ \dots\ , n \]
+si fa un n-intervallo col prodotto cartesiano
+\[ I = 
+(a_1 \times b_1] \times
+(a_2 \times b_2] \times
+(a_3 \times b_3] \times
+\dots \times
+(a_n \times b_n]
+\]
+scrivibile anche come
+\[ I = \prod_{i = 1}^{n} (a_i, b_i] \]
+il fatto che un estremo sia aperto e l'altro sia chiuso serve a usarli come blocchetti
+lego
+
+** Volume
+visto che un n-intervallo è un parallelepipedo il volume di questo è dato dal prodotto di
+lunghezza, larghezza, e profondità, ma visto che qui abbiamo n dimensioni facciamo prima a
+dire che il volume di questo parallepipedo è il prodotto delle lunghezze di tutte le sue
+dimensioni.
+
+** Proprietà
+l'unione, intersezione, differenza, e quant'altro di due n-intervalli può essere scritta
+come unione disgiunta di una quantità finita di n-intervalli.
+
+la cosa vale anche per intersezioni, differenze, e quant'altro finite
+la cosa torna molto comoda
+
+la cosa può essere estesa a unioni infinite numerabili
+la cosa torna /molto/ comoda
+
+* Misura esterna
+ora che abbiamo definito il volume di un sottinsieme di \mathbb{R}^n possiamo usarlo per
+definire il volume di altri sottinsiemi di \mathbb{R}^n a forza di cocaina e unioni
+disgiunte.
+
+la prima parte del definire questa cosa è la /misura esterna/
+la misura esterna è un inf
+
+** Proprietà
+ 1. sta tra 0 e inf, compresi
+ 2. è monotona
+ 3. l'unione due insiemi generici ha misura che fa una disuguaglianza triangolare
+ 4. quella di un'unione disgiuta fa la somma, senza il \leq della triangolare
+ 5. la misura esterna di un n-intervallo è il suo volume
+ 6. quella dell'insieme vuoto fa 0
+ 7. quella di un insieme discreto fa 0
+ 8. quella della frontiera di un n-intervallo fa 0
+
+*** Test di caratheodory
+se due insiemi sono disgiunti la misura esterna dell'unione fa la somma
+qui dice che sono disgiunti nel modo peggiore di dire la cosa, vale a dire
+\[
+E,F \text { disgiunti } \iff
+inf\{ \lvert \lvert x - y \rvert \rvert | x \in E, y \in F\} > 0
+\]
+
+* Misurabile secondo Lesbegue
+un insieme si dice misurabile secondo lesbegue se puoi avere misure esterne che si
+avvicinano arbitrariamente all'insieme in questione
+
+quindi, dato $E$ posso avere sovrainsiemi di $E$, fatti da n-intervalli, arbitrariamente
+vicini ad $E$.
+la distanza si indica con la misura esterna della differenza.

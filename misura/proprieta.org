@@ -1,0 +1,11 @@
+(metterle coi teoremi incasinava troppe cose)
+
+* Misura
+** n-intervalli
+** Misura esterna
+** Misurabili
+** Misura Lesbegue
+
+* Ingegrale
+** Funzioni semplici
+** Funzioni misurabili

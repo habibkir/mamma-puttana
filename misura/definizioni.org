@@ -1,0 +1,10 @@
+* Prima parte
+ - n-intervalli
+ - misura esterna
+ - misurabile
+ - sigma algebra
+ - misura
+
+* Seconda parte   
+ - funzioni semplici
+ - integrale di lesbegue
